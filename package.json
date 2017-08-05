@@ -1,0 +1,27 @@
+{
+  "name": "asybot",
+  "version": "1.0.0",
+  "description": "discord asymptote bot",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "mkdir -p src/ && cd data && node ../src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thepiercingarrow/discord-asybot.git"
+  },
+  "keywords": [
+    "discord",
+    "bot"
+  ],
+  "author": "Maxwell Zhao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thepiercingarrow/discord-asybot/issues"
+  },
+  "homepage": "https://github.com/thepiercingarrow/discord-asybot#readme",
+  "dependencies": {
+    "discord.io": "^2.5.1"
+  }
+}
